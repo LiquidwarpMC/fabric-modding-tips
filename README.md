@@ -1,5 +1,10 @@
 # Fabric modding tips
 
+## Game architecture
+### Diagrams
+![Game architecture by 2xsaiko](/images/game_architecture-2xsaiko-fabric_discord.png?raw=true "Game architecture")
+*2xsaiko, Fabric Discord*
+
 ## Compound tags
 ### Null values
 >You should never store null in compound tags wince you end up becoming incompatable with sponge since their data processor system specifically expects the contents of a CompoundTag to be never null and will crash as a result.
