@@ -66,7 +66,7 @@ public abstract class ContainerScreenMixin<T extends Container> extends Screen i
 }
 ```
 
-*Gudeneau, Fabric Discord*
+*Gudenau, Fabric Discord*
 
 ## Mappings
 >Chloe Dawn: My mod references bindTexture, but method_4618 became a pointer to bindTextureInner in 1.15.2?
