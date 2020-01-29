@@ -14,3 +14,9 @@
 >Inventory syncing conventionally happens via the container. Any other type of syncing is only necessary when the client needs to know outside the GUI. Please don't use block entity updates and similar if you don't have to
 
 *JamiesWhiteShirt, Fabric Discord*
+
+## Mappings
+>Chloe Dawn: My mod references bindTexture, but method_4618 became a pointer to bindTextureInner in 1.15.2?
+>Thalia/Christie: Intermediaries are matched by method content. If mojang refactors a method into api/impl then the intermediary name will go to the impl method. The same thing happened with Biome#getTemperature in 1.14.4
+
+*Thalia/Christie, Fabric Discord*
