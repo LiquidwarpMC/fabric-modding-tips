@@ -1,7 +1,7 @@
 # Fabric modding tips
 
 ## Game architecture
-### Diagrams
+### General
 ![Game architecture by 2xsaiko](/images/game_architecture-2xsaiko-fabric_discord.png?raw=true "Game architecture")
 *2xsaiko, Fabric Discord*
 
@@ -21,7 +21,7 @@
 
 *JamiesWhiteShirt, Fabric Discord*
 
-### Development
+### Show slot numbers during debug
 Adding numbers to container slots in debug:
 ```
 package [...].mixin.client;
