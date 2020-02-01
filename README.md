@@ -13,7 +13,7 @@
 
 ### Other (by Mumfrey)
 [About Hierarchy Validation in Mixins](https://github.com/SpongePowered/Mixin/wiki/About-Hierarchy-Validation-in-Mixins)\
-[PSA Forward Compatibility Features](https://github.com/SpongePowered/Mixin/wiki/PSA-Forward-Compatibility-Features-in-Mixin)\
+[PSA Forward Compatibility Features in Mixin](https://github.com/SpongePowered/Mixin/wiki/PSA-Forward-Compatibility-Features-in-Mixin)\
 [Flippin' Mixins, how do they work?](https://github.com/SpongePowered/Mixin/wiki/Flippin'-Mixins,-how-do-they-work%3F)
 
 ### Documentation
