@@ -1,5 +1,9 @@
 # Fabric modding tips
 
+## Introduction
+This is a collection of general information and tips about Fabric modding.\
+Credit is provided where possible.
+
 ## Mixins
 ### Introduction Series (by Mumfrey)
 [Understanding Mixin Architecture](https://github.com/SpongePowered/Mixin/wiki/Introduction-to-Mixins---Understanding-Mixin-Architecture)\
