@@ -1,8 +1,8 @@
 # Fabric modding tips
 
 ## Introduction
-This is a collection of general information and tips about Fabric modding.\
-Credit is provided where possible.
+This is a collection of general information and tips about Fabric modding. Credit is provided where possible in the form of *creator, location*.\
+Please open a PR if you have any addition / modification suggestion !
 
 ## Mixins
 ### Introduction Series (by Mumfrey)
