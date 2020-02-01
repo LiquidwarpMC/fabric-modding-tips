@@ -1,6 +1,21 @@
 # Fabric modding tips
 
 ## Mixins
+### Introduction Series (by Mumfrey)
+[Understanding Mixin Architecture](https://github.com/SpongePowered/Mixin/wiki/Introduction-to-Mixins---Understanding-Mixin-Architecture)\
+[The Mixin Environment](https://github.com/SpongePowered/Mixin/wiki/Introduction-to-Mixins---The-Mixin-Environment)\
+[Obfuscation and Mixins](https://github.com/SpongePowered/Mixin/wiki/Introduction-to-Mixins---Obfuscation-and-Mixins)\
+[Resolving Method Signature Conflicts](https://github.com/SpongePowered/Mixin/wiki/Introduction-to-Mixins---Resolving-Method-Signature-Conflicts)\
+[Overwriting Methods](https://github.com/SpongePowered/Mixin/wiki/Introduction-to-Mixins---Overwriting-Methods)
+
+### Advanced Series (by Mumfrey)
+[Callback Injectors](https://github.com/SpongePowered/Mixin/wiki/Advanced-Mixin-Usage---Callback-Injectors)
+
+### Other (by Mumfrey)
+[About Hierarchy Validation in Mixins](https://github.com/SpongePowered/Mixin/wiki/About-Hierarchy-Validation-in-Mixins)\
+[PSA Forward Compatibility Features](https://github.com/SpongePowered/Mixin/wiki/PSA-Forward-Compatibility-Features-in-Mixin)\
+[Flippin' Mixins, how do they work?](https://github.com/SpongePowered/Mixin/wiki/Flippin'-Mixins,-how-do-they-work%3F)
+
 ### Documentation
 #### Annotations
 [Inject](http://jenkins.liteloader.com/view/Other/job/Mixin/javadoc/org/spongepowered/asm/mixin/injection/Inject.html)\
@@ -22,10 +37,10 @@
 [Unique](http://jenkins.liteloader.com/view/Other/job/Mixin/javadoc/org/spongepowered/asm/mixin/Unique.html)
 
 #### Other
-[CallbackInfo](http://jenkins.liteloader.com/view/Other/job/Mixin/javadoc/org/spongepowered/asm/mixin/injection/callback/CallbackInfo.html)
-[CallbackInfoReturnable](http://jenkins.liteloader.com/view/Other/job/Mixin/javadoc/org/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable.html)
-[InjectionPoint](http://jenkins.liteloader.com/view/Other/job/Mixin/javadoc/org/spongepowered/asm/mixin/injection/InjectionPoint.html)
-[Constant.Condition](http://jenkins.liteloader.com/view/Other/job/Mixin/javadoc/org/spongepowered/asm/mixin/injection/Constant.Condition.html)
+[CallbackInfo](http://jenkins.liteloader.com/view/Other/job/Mixin/javadoc/org/spongepowered/asm/mixin/injection/callback/CallbackInfo.html)\
+[CallbackInfoReturnable](http://jenkins.liteloader.com/view/Other/job/Mixin/javadoc/org/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable.html)\
+[InjectionPoint](http://jenkins.liteloader.com/view/Other/job/Mixin/javadoc/org/spongepowered/asm/mixin/injection/InjectionPoint.html)\
+[Constant.Condition](http://jenkins.liteloader.com/view/Other/job/Mixin/javadoc/org/spongepowered/asm/mixin/injection/Constant.Condition.html)\
 [LocalCapture](http://jenkins.liteloader.com/view/Other/job/Mixin/javadoc/org/spongepowered/asm/mixin/injection/callback/LocalCapture.html)
 
 ## Game architecture
