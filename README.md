@@ -65,7 +65,7 @@ This is a collection of general information and tips about Fabric modding. Credi
 
 ## Compound tags
 ### Null values
->You should never store null in compound tags wince you end up becoming incompatable with sponge since their data processor system specifically expects the contents of a CompoundTag to be never null and will crash as a result.
+>You should never store null in compound tags since you end up becoming incompatable with Sponge since their data processor system specifically expects the contents of a CompoundTag to be never null and will crash as a result.
 
 *i509VCB, Fabric Discord*
 
