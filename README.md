@@ -81,7 +81,7 @@ This is a collection of general information and tips about Fabric modding. Credi
 
 ### Show slot numbers during debug
 Adding numbers to container slots in debug:
-```
+```java
 package [...].mixin.client;
 
 import net.fabricmc.api.EnvType;
@@ -102,14 +102,14 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(ContainerScreen.class)
 @Environment(EnvType.CLIENT)
-public abstract class ContainerScreenMixin<T extends Container> extends Screen implements ContainerProvider<T>{
+public abstract class ContainerScreenMixin<T extends Container> extends Screen implements ContainerProvider<T> {
     private static final boolean DEBUG = FabricLoader.getInstance().isDevelopmentEnvironment();
 
     @Shadow @Final protected T container;
     @Shadow protected int x;
     @Shadow protected int y;
 
-    private ContainerScreenMixin(Text title){
+    private ContainerScreenMixin(Text title) {
         super(title);
     }
 
@@ -117,12 +117,11 @@ public abstract class ContainerScreenMixin<T extends Container> extends Screen i
         method = "render",
         at = @At("TAIL")
     )
-    private void render(int mouseX, int mouseY, float delta, CallbackInfo callbackInfo){
-        if(DEBUG){
-            for(Slot slot : container.slots){
-                if(slot != null){
+    private void render(int mouseX, int mouseY, float delta, CallbackInfo ci) {
+        if(DEBUG) {
+            for(Slot slot : container.slots) {
+                if(slot != null)
                     font.draw("" + slot.id, slot.xPosition + x, slot.yPosition + y, 0xFFFFFF);
-                }
             }
         }
     }
